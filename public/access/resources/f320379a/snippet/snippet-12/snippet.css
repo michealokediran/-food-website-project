@@ -1,0 +1,89 @@
+/*From the land*/
+.from-the-land {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.from-the-land .image-holder,
+.from-the-land .land-content-block {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.from-the-land .content-card h3{
+    color: #000000;
+    font-size: 42px;
+    margin-top: 0;
+    line-height: 1.5;
+    font-family: 'Pangram';
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.from-the-land .content-card p{
+    color: #000000;
+    font-size: 17px;
+    margin-top: 0;
+    line-height: 24px;
+    font-family: 'Pangram';
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.from-the-land .content-card p:last-child {
+    margin: 0;
+}
+.from-the-land .image-holder img {
+    max-width: 100%;
+}
+.from-the-land .land-content-block {
+    background: #ffc425;
+    padding: 0 70px;
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.from-the-land .land-content-block .content-card {
+    max-width: 460px;
+}
+.from-the-land .features-images span {
+    display:  inline-block;
+    border: 15px solid #ffc425;
+    overflow:  hidden;
+    height: 225px;
+    width: 225px;
+    border-radius:  50%;
+    position:  absolute;
+    z-index: 1;
+}
+.from-the-land .image-holder,
+.from-the-land .land-content-block {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+}
+.from-the-land .land-content-block .features-images span.bottom,
+.from-the-land .land-content-block .features-images span.top {
+    height: 240px;
+    width: 240px;
+}
+.from-the-land .features-images span img {
+    max-width: 100%;
+}
+.from-the-land .land-content-block .features-images span {
+    float: left;
+}
+.from-the-land .land-content-block .features-images span.top {
+    top: -70px;
+    left: 410px;
+}
+.from-the-land .land-content-block .features-images span.middle {
+    top: 20px;
+    left: auto;
+    right: 90px;
+}
+.from-the-land .land-content-block .features-images span.bottom {
+    bottom: 21px;
+    right: 110px;
+}

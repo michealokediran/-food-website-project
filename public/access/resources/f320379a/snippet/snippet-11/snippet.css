@@ -1,0 +1,124 @@
+/*passion-food*/
+.passion-food {
+    padding: 194px 0 94px;
+    background: #fff url(../../../../template/f320379a/images/wb-bg.png) no-repeat center / cover;
+}
+.passion-food .passion-food-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 70px 70px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.10);
+}
+.passion-food .passion-food-wrapper .features-images span {
+    display:  inline-block;
+    border: 15px solid #fff;
+    margin:  0 -25px;
+    overflow:  hidden;
+    height: 244px;
+    width: 244px;
+    border-radius:  50%;
+    position:  relative;
+    z-index: 1;
+}
+.passion-food .passion-food-wrapper .features-images span img {
+    max-width: 100%;
+}
+.passion-food-wrapper .features-images span.middle {
+    position:  relative;
+    z-index: 2;
+}
+.passion-food .passion-food-wrapper .features-images {
+    position: relative;
+    top: -100px;
+}
+.passion-food .feature-content h3{
+    color: #000000;
+    font-size: 28px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'Pangram';
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.passion-food .feature-content .sub-title{
+    color: #000000;
+    font-size: 19px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'Pangram';
+    font-weight:  normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: auto;
+}
+.passion-food .feature-content p{
+    color: #000000;
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 22px;
+    font-family: 'Pangram';
+    font-weight:  normal;
+    margin-bottom: 15px;
+}
+.passion-food .feature-content p:last-child {
+    margin: 0;
+}
+.passion-food .content-card + .content-card {
+    margin-top: 30px;
+}
+.passion-food .feature-content ul {
+    margin:  0;
+    padding: 0;
+    list-style:  none;
+}
+
+.passion-food .feature-content ul li {
+    font-size:  15px;
+    font-family: 'Pangram';
+    line-height: 28px;
+    padding-left: 20px;
+    position:  relative;
+    color: #000000;
+    padding-bottom: 0;
+    margin-bottom: 3px;
+    font-weight:  normal;
+}
+.passion-food .feature-content ul li:before {
+    content:  "";
+    position:  absolute;
+    top: 50%;
+    left:  0;
+    height:  8px;
+    width:  8px;
+    background-color:  #777777;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.passion-food .feature-content ul li:last-child {
+    margin-bottom: 0;
+}
+.passion-food .feature-content{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -72px;
+}
+.passion-food .feature-content .left-block,
+.passion-food .feature-content .right-block {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.passion-food .feature-content .right-block {
+    padding-left: 40px;
+}
+.passion-food .feature-content .left-block {
+	padding-right: 40px;
+}
+.passion-food .feature-content .inner-content {
+    max-width: 536px;
+    margin: 0 auto;
+}

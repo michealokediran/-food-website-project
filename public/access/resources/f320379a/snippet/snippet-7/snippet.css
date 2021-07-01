@@ -1,0 +1,217 @@
+/*============snippets =========*/
+.food-gallery { 
+
+}
+.food-gallery .section-top , 
+.food-gallery .section-middle, 
+.food-gallery .section-bottom { 
+   display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-gallery .section-top {
+    overflow: hidden;
+    max-height: 976px;
+}
+.food-gallery .section-top .gallery-item {
+    position: relative;
+}
+.food-gallery .gallery-item::before {
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	opacity:0;
+	transition: all .5s ease;
+}
+.food-gallery .gallery-item:hover::before {
+	opacity:1;
+	transition: all .5s ease;
+}
+.food-gallery .section-top .gallery-item{
+
+}
+.food-gallery .section-top .gallery-item:first-child::before {
+	opacity:1;
+}
+
+.food-gallery .section-top .gallery-item.left {
+	-ms-flex: 0 0 41%;
+	flex: 0 0 41%;
+	max-width: 41%;
+
+}
+.food-gallery .section-top .gallery-item.right { 
+    -ms-flex: 0 0 59%;
+	flex: 0 0 59%;
+	max-width: 59%;
+	}
+.food-gallery .section-top .gallery-item img { 
+
+}
+.food-gallery .section-top .gallery-item .gallery-content {
+	position: absolute;
+	top: 0;
+	max-width: 450px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	padding-top: 174px;
+}
+
+.food-gallery .section-top .gallery-item .gallery-content h2 { 
+	color: #ffc420;
+	font-size: 48px;
+	text-transform: lowercase;
+	margin-top: 0;
+	line-height: 42px;
+	font-family: 'Pangram';
+	font-weight:500;
+	margin-bottom: 60px;
+}
+
+.food-gallery .section-top .gallery-item .gallery-content p { 
+	color: #fff;
+	font-size: 21px;
+	margin-top: 0;
+	line-height: 42px;
+	font-family: 'Pangram';
+	font-weight:500;
+	margin-bottom: 47px;
+}
+.food-gallery .gallery-item h1{ 
+	color: #ffc420;
+	font-size: 72px;
+	margin-top: 0;
+	line-height: 1;
+	font-family: 'Pangram';
+	font-weight:500;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	opacity:0;
+	transition: all .5s ease;
+}
+.food-gallery .gallery-item:hover h1{ 
+	opacity:1;
+	transition: all .5s ease;
+}
+
+.food-gallery .section-middle { 
+    position: relative;
+    overflow: hidden;
+    max-height: 788px;
+}
+
+.food-gallery .section-middle .gallery-item { 
+	position: relative;
+}
+.food-gallery .section-middle .gallery-item.left {
+	-ms-flex: 0 0 65%;
+	flex: 0 0 65%;
+	max-width: 65%;
+}
+.food-gallery .section-middle .gallery-item.right { 
+    -ms-flex: 0 0 35%;
+	flex: 0 0 35%;
+	max-width: 35%;
+	}
+.food-gallery .section-middle .gallery-item img { 
+
+}
+
+.food-gallery .section-middle .gallery-item h1 { 
+
+}
+
+.food-gallery .section-bottom { 
+    position: relative;
+    overflow: hidden;
+    max-height: 919px;
+}
+
+.food-gallery .section-bottom .gallery-item { 
+	position:relative;
+}
+.food-gallery .section-bottom .gallery-item.left {
+	-ms-flex: 0 0 37%;
+	flex: 0 0 37%;
+	max-width: 37%;
+
+}
+.food-gallery .section-bottom .gallery-item.right { 
+    -ms-flex: 0 0 63%;
+	flex: 0 0 63%;
+	max-width: 63%;
+	}
+.food-gallery .section-bottom .gallery-item img { 
+}
+
+
+body.widget-snippet {
+    padding: 40px;
+}
+body.widget-snippet .food-gallery .section-top {
+    max-height: 775px;
+overflow: visible;
+}
+body.widget-snippet .food-gallery .section-middle {
+	max-height: 625px;
+overflow: visible;
+}
+body.widget-snippet .food-gallery .section-bottom {
+	max-height: 734px;
+overflow: visible;
+}
+
+
+body.widget-snippet .section-top{
+    max-width: 100%;
+overflow: visible;
+}
+body.widget-snippet .food-gallery .gallery-item::before {
+    display:none;
+}
+body.widget-snippet .gallery-item img {
+    max-height: 334px;
+    width: 100%;
+}
+body.widget-snippet .gallery-item .gallery-content {
+    background: #333;
+    position: relative;
+    max-width: 100%;
+    padding: 30px;
+}
+body.widget-snippet .gallery-item.left .gallery-content {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+}
+body.widget-snippet .food-gallery .gallery-item h1 {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    opacity: 1;
+    background: #333;
+    text-align: center;
+    padding: 30px;
+}
+body.widget-snippet .section-top .gallery-item.right {
+    max-height: 643px;
+    width: 100%;
+}
+body.widget-snippet .section-top .gallery-item.right img{
+    max-height: 643px;
+}
+.food-gallery .section-bottom-bottom {
+    position: relative;
+    overflow: hidden;
+    max-height: 919px;
+}
+body.widget-snippet  .food-gallery .section-bottom-bottom{
+overflow: visible;
+}

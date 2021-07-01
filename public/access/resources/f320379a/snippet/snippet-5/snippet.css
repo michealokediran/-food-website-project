@@ -1,0 +1,56 @@
+/* Back to top */
+.widget-snippet.back-to-top {
+    overflow: visible;
+    text-align: center;
+    margin-top: -45px;
+}
+.widget-snippet a#scrollToTop{
+    width: 85px;
+    height: 85px;
+    border: 10px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    background: #FFC420;
+    line-height: 72px;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+.widget-snippet a#scrollToTop i{
+    font-size: 37px;
+    color: #000;
+}
+.widget-snippet a#scrollToTop::after {
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(134deg);
+    box-sizing: border-box;
+}
+.widget-snippet a#scrollToTop::before {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    width: 85px;
+    height: 85px;
+    box-shadow: 0 0 0 0 #ffc420;
+    border-radius: 100%;
+    opacity: 0;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.widget-snippet a#scrollToTop:hover{
+background: #EDB20E;
+}
+.widget-snippet a#scrollToTop:hover::after {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}

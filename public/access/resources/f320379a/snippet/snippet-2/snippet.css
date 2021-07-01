@@ -1,0 +1,35 @@
+body.widget-snippet .social-share {
+	padding: 40px;
+    text-align: center;
+}
+body.widget-snippet .social-share a{
+   height:50px;
+   width:50px
+}
+.widget-snippet .social-share{
+    text-align: right;
+}
+.widget-snippet .social-share a{
+    font-size: 30px;
+    display: inline-block;
+    color: #000;
+    margin: 0 15px 0 0;
+    width: auto;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.widget-snippet .social-share a i{
+color:#000;
+-webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.widget-snippet .social-share a:hover i{
+    color: #FFC420;
+-webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.widget-snippet .social-share a:last-child{
+    margin-right: 0;
+}

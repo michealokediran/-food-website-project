@@ -1,0 +1,106 @@
+.widget-snippet .favourites-store{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.widget-snippet .menu-favourites,
+.widget-snippet .find-store{
+    flex: 1;
+    position: relative;
+}
+.widget-snippet .menu-favourites img{
+    object-fit: cover;
+}
+.widget-snippet .menu-favourites:hover{
+   text-decoration: none;
+}
+.widget-snippet .menu-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+.widget-snippet .menu-content h3{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.widget-snippet .menu-content h2{
+    color: #fff;
+    font-size: 60px;
+    text-transform: lowercase;
+    margin-top: 0;
+    line-height: 60px;
+-webkit-transition: all 0.5s ease 0s;
+transition: all 0.5s ease 0s;
+}
+.widget-snippet .menu-favourites:hover .menu-content h2 {
+   color:#FDC10C;
+-webkit-transition: all 0.5s ease 0s;
+transition: all 0.5s ease 0s;
+}
+.widget-snippet .find-store{
+    background: url(../../../../template/f320379a/images/find-store-bg.jpg) center /cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widget-snippet .store-content h2{
+    font-size: 30px;
+    color: #fdc101;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body.widget-snippet .favourites-store{
+   padding:50px;
+}
+body.widget-snippet .menu-content {
+    top: 43%;
+    left: 26%;
+    transform: none;
+}
+
+
+
+.widget-snippet .btn-find-store{
+text-align: right;
+}
+.widget-snippet .btn-find-store  a{
+    display: inline-block;
+    background: #FFC420;
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 15px 50px 15px 55px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+.widget-snippet .btn-find-store a::after{
+    content: url('../../../../template/f320379a/images/right-arrow.png');
+    height: 17px;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0px;
+}
+.widget-snippet .btn-find-store a:hover{
+    background: #000;
+    color: #FFC420;
+    text-decoration: none;
+}
+.widget-snippet .btn-find-store a:hover::after{
+    content: url('../../../../template/f320379a/images/right-arrowy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.widget-snippet .btn-find-store{
+text-align: center;
+}

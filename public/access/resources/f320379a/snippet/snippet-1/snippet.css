@@ -1,0 +1,34 @@
+.widget-snippet .btn-find-us{
+text-align: right;
+}
+.widget-snippet .btn-find-us a{
+    display: inline-block;
+    background: #FFC420;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 40px 65px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+.widget-snippet .btn-find-us a::after{
+    content: "";
+   background: url('../../../../template/f320379a/images/right-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    display: block;
+}
+.widget-snippet .btn-find-us a:hover{
+    background: #000;
+    color: #FFC420;
+    text-decoration: none;
+}
+.widget-snippet .btn-find-us a:hover::after{
+    background: url('../../../../template/f320379a/images/right-arrowy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.widget-snippet .btn-find-us{
+text-align: center;
+}

@@ -1,0 +1,115 @@
+/*Join the famigilia section*/
+.join-famigilia {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.join-famigilia .famigilia-content {
+    max-width: 510px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+.join-famigilia .left-part {
+    background: #1c1c1c;
+    position: relative;
+}
+.join-famigilia .famigilia-content h2{
+    color: #ffc420;
+    font-size: 40px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'Pangram';
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.join-famigilia .famigilia-content h4{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'Pangram';
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.join-famigilia .famigilia-content p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 22px;
+    font-family: 'Pangram';
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.join-famigilia .left-part,
+.join-famigilia .right-part {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.join-famigilia .inner-left {
+    padding-right: 3%;
+}
+.join-famigilia .inner-wrap{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.join-famigilia .inner-left,
+.join-famigilia .inner-right {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.famigilia-img{
+text-align:right;
+}
+.join-famigilia .left-part img {
+margin: 0 30px 15px 0;
+}
+/*RightSide Style*/
+.join-famigilia .right-part {
+    background: #ffc425 url(../../../../template/f320379a/images/yw-pattern.png) no-repeat center / cover;
+    position: relative;
+}
+.join-famigilia .Passion-for-food {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.join-famigilia .inner-wrap{
+    padding: 70px 65px 244px;
+}
+.join-famigilia .inner-right {
+    padding-left: 3%;
+}
+.join-famigilia .inner-wrap .inner-content h2 {
+    color: #000000;
+    font-size: 28px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'Pangram';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.join-famigilia .inner-wrap .inner-content p{
+    color: #000000;
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 22px;
+    font-family: 'Pangram';
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+.join-famigilia .inner-wrap .inner-content p:last-child {
+    margin: 0;
+}
+.join-famigilia .inner-wrap .inner-content {
+    max-width: 395px;
+    margin: auto;
+}
+.join-famigilia .Passion-for-food img {
+    max-width: 100%;
+}

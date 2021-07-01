@@ -1,0 +1,56 @@
+/* ready-to-take */
+.ready-to-take{
+    padding: 100px 0;
+}
+.ready-to-take h2{
+    text-align: center;
+    font-family: 'Pangram';
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #101010
+    line-height: 50px;
+}
+.ready-to-take ul{
+    padding: 0;
+    width: 50%;
+    float: left;
+}
+.ready-to-take ul li{
+    list-style: none;
+    padding: 0 0 0 46px;
+    position: relative;
+    color: #010101;
+}
+.ready-to-take ul li p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #010101;
+    font-weight: normal;
+    list-style: none;
+    padding: 0 0 18px 0;
+    position: relative;
+    font-family: 'Pangram';
+    margin: 0;
+}
+.ready-to-take ul li:before{
+    display: none;
+}
+.ready-to-take ul li span {
+    padding-right: 14px;
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    color: #cacaca;
+    top: 0;
+    font-weight: bold;
+    font-family: 'Pangram';
+    text-align: right;
+    width: 40px;
+}
+.ready-to-take-list ul:first-child {
+    padding-right: 20px;
+}
+
+.ready-to-take-list ul:last-child {
+    padding-left: 20px;
+}

@@ -1,0 +1,102 @@
+/*banner style*/
+.franchise-banner {
+    padding: 110px 0;
+    background: url(../../../../template/f320379a/images/franchise-banner.jpg) no-repeat center / cover;
+}
+.franchise-banner .v-middle{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.franchise-banner .logo {
+    margin-bottom: 40px;
+}
+.franchise-banner .brand-name h2 {
+    font-size: 78px;
+    line-height: 1;
+    font-family: 'Elephant';
+    color: #fff;
+    position: relative;
+    margin: 0 37px;
+}
+.franchise-banner .brand-name h2:after,
+.franchise-banner .brand-name h2:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 193px;
+    width: 93px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+.franchise-banner .brand-name h2:after {
+    left: 0;
+    background: url(../../../../template/f320379a/images/brand-name-leaf.png) no-repeat;
+}
+.franchise-banner .brand-name h2:before {
+    right: 0;
+    background: url(../../../../template/f320379a/images/brand-name-leaf.png) no-repeat;
+    transform: rotateY(180deg) translateY(-50%);
+}
+.franchise-banner .brand-box {
+    max-width:  586px;
+    height: 512px;
+    text-align: center;
+    background: url(../../../../template/f320379a/images/brand-box-bg.png) no-repeat 0 46px;
+}
+.franchise-banner .join-famigilia-btn a {
+    font-size: 30px;
+    color: #231f20;
+    font-family: 'Pangram';
+    font-weight: 500;
+    padding: 0 26px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration:  none;
+    text-transform: uppercase;
+    background-color: #ffc420;
+    display: inline-block;
+    position: relative;
+}
+.franchise-banner .join-famigilia-btn {
+    margin-top: 45px;
+}
+.franchise-banner .join-famigilia-btn a:hover {
+    color: #fff;
+    background-color: #000;
+    transition: all .5s;
+}
+.franchise-banner .join-famigilia-btn a:hover:before {
+    border: 30px solid #000;
+    border-left-color: transparent;
+    transition: all .5s;
+}
+.franchise-banner .join-famigilia-btn a:hover:after {
+    border: 30px solid #000;
+    border-right-color: transparent;
+    transition: all .5s;
+}
+.franchise-banner .ribbon:before,
+.franchise-banner .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    border: 30px solid #ffc420;
+    z-index: 1;
+    transition: all .5s;
+}
+.franchise-banner .ribbon:before {
+    left: -2em;
+    border-right-width: 30px;
+    border-left-color: transparent;
+    transition: all .5s;
+}
+.franchise-banner .ribbon:after {
+    right: -2em;
+    border-left-width: 30px;
+    border-right-color: transparent;
+    transition: all .5s;
+}
